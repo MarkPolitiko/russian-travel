@@ -1,0 +1,25 @@
+.block-image {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 73px;
+}
+
+@media screen and (max-width: 1024px) {
+  .block-image {
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .block-image {
+    gap: 28px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .block-image {
+    gap: 32px;
+    flex-direction: column;
+    margin: 0;
+  }
+}
