@@ -5,4 +5,4 @@
 2. Подключение специальных стилей шрифтов.
 3. Файловая структура по БЭМ и с последующим импортом (~~@import~~) файлов в основной css файл.
 4. Подключены глобальные стили.
-Ссылка на GitHub: https://github.com/MarkPolitiko/russian-travel.git
+Ссылка на GitHub: https://markpolitiko.github.io/russian-travel/index.html
