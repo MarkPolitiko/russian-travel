@@ -6,6 +6,9 @@
   letter-spacing: 2px;
   color: #AAAAAA;
   margin: 0;
+  text-transform: uppercase;
+  padding-bottom: 12px;
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -14,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 660px) {
   .place__url-heading {
     max-width: 288px;
     padding: 0;

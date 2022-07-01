@@ -9,10 +9,28 @@
   color: white;
 }
 
+@media screen and (max-width: 1220px) {
+  .cover__subtitle {
+    width: calc(100% - 340px * 2);
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .cover__subtitle {
     width: calc(100% - 332px * 2);
     margin: 0 auto 195px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .cover__subtitle {
+    width: calc(100% - 280px * 2);
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .cover__subtitle {
+    width: calc(100% - 240px * 2);
   }
 }
 
@@ -23,11 +41,10 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 650px) {
   .cover__subtitle {
     width: calc(100% - 16px * 2);
     font-size: 0.875rem;
-    min-height: 48px;
     margin: 0 auto 33px;
   }
 }

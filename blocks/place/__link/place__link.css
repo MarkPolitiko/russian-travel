@@ -9,14 +9,17 @@
   grid-row: 4/5;
 }
 
+.place__link:hover {
+  opacity: 0.8;
+}
+
 @media screen and (max-width: 768px) {
   .place__link {
     max-width: 352px;
-    padding-top: 12px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 660px) {
   .place__link {
     max-width: 288px;
     padding: 0;
