@@ -32,14 +32,18 @@
 @media screen and (max-width: 870px) {
   .cover__title {
     width: calc(100% - 140px * 2);
-    margin-top: 115px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__title {
     width: calc(100% - 104px * 2);
-    margin-top: 115px;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .cover__title {
+    font-size: 60px;
   }
 }
 
